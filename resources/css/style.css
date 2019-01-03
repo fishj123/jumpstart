@@ -9,3 +9,92 @@ li a {
     font-weight: bold;
 }
 
+
+h3 {
+    color: #399bd1;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-left: 1.2%;
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 400px) {
+    .logo {
+        display: none;
+    }
+}
+
+.jumbotron-bike {
+    background-image: url(../images/jumbotron-bike.jpg);
+    padding-top: 11.85rem;
+    padding-bottom: 11.85rem;
+}
+
+.monoton {
+    font-family: monoton; 
+    font-size: 7.1rem;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;    
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron-p {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
+    display: flex;
+    justify-content: center;
+}
+
+.main-button {
+   text-align: center;
+}
+
+.main-button a:hover {
+    background-color: #399bd1;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.main-button a:active {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary {
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.5);
+    transition: 1s box-shadow;
+    transition: 0.2s background-color;
+}
+
+.image-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.product-list h4 {
+    color: #399bd1;
+}
+
+.opaque {
+    opacity: 0.5;
+}
+
+.bottom-margin {
+    margin-bottom: 2rem;
+}
+
+.big-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.4rem;
+}
+
+.footer-content {
+    text-align: center;
+    padding-top: 5.2rem;
+    padding-bottom: 5.2rem;
+    background-color: #f3f3f3;
+}
