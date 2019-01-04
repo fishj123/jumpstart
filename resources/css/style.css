@@ -97,7 +97,7 @@ h4 {
 
 .monoton {
     font-family: monoton; 
-    font-size: 7.1rem;
+    font-size: 10vw;
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;    
     display: flex;
@@ -106,7 +106,7 @@ h4 {
 
 @media only screen and (max-width: 768px) {
     .monoton {
-        font-size: 5.7rem;
+        font-size: 10vw;
     }
 }
 
