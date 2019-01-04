@@ -1,3 +1,5 @@
+/* General styles */
+
 html {
     font-size: 14px;
     font-family: Open Sans;
@@ -22,14 +24,73 @@ h4 {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 400px) {
+.image-container img:hover {
+    opacity: 1;
+    transform: scale(1.3);
+}
+
+.image-container img {
+    transition: transform 0.5s, opactity 0.5s;
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+
+/* Navbar section */
+
+@media only screen and (max-width: 768px) {
     .logo {
         display: none;
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .mobile-text {
+        text-align: center;
+    }
+}
+
+.navbar {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-nav {
+     margin: auto;
+    }
+}
+
+/* Jumbotron section */
+
 .jumbotron-bike {
     background-image: url(../images/jumbotron-bike.jpg);
+    background-position: center;
+    padding-top: 11.85rem;
+    padding-bottom: 11.85rem;
+}
+
+.jumbotron-beer {
+    background-image: url(../images/jumbotron-beer.jpg);
+    background-position: center;
+    padding-top: 11.85rem;
+    padding-bottom: 11.85rem;
+}
+
+.jumbotron-duffel {
+    background-image: url(../images/jumbotron-duffel.jpg);
+    background-position: center;
+    padding-top: 11.85rem;
+    padding-bottom: 11.85rem;
+}
+
+.jumbotron-flowers {
+    background-image: url(../images/jumbotron-flowers.jpg);
+    background-position: center;
     padding-top: 11.85rem;
     padding-bottom: 11.85rem;
 }
@@ -41,6 +102,12 @@ h4 {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;    
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .monoton {
+        font-size: 5.7rem;
+    }
 }
 
 .jumbotron-p {
@@ -69,22 +136,61 @@ h4 {
     transition: 0.2s background-color;
 }
 
+/* Products section */
+
 .image-container img {
     height: 100%;
     width: 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+   .featured-product {
+       display: flex;
+       justify-content: center;
+   }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    .image-container img {
+        height: 50%;
+        width: 100%;
+    }
 }
 
 .product-list h4 {
     color: #399bd1;
 }
 
+/* Projects section */
+
 .opaque {
     opacity: 0.5;
 }
 
+@media only screen and (max-width: 768px) {
+    .opaque {
+     padding-top: 0.5rem;
+     padding-bottom: 0.5rem;
+    }
+}
+
+.projects {
+    margin-bottom: 5.85rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .projects-h3 {
+        display: flex;
+        justify-content: center;
+    }
+ }
+
 .bottom-margin {
     margin-bottom: 2rem;
 }
+
+/* Footer section */
 
 .big-text {
     font-size: 2.5rem;

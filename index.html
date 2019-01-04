@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./resources/css/Reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./resources/javascript/Slick/slick/slick-theme.scss">
+    <link rel="stylesheet" type="text/css" href="./resources/javascript/Slick/slick/slick.css">
     <link rel="stylesheet" href="./resources/css/style.css">
     <title>Document</title>
     <link rel="shortcut icon" type="image/png" href="./favicon.png">
@@ -15,9 +15,9 @@
 <body>
 
  
-<nav class="navbar navbar-expand-md">
-    <div class="container-fluid">
-        <ul class="navbar-nav">
+<nav class="navbar navbar-expand-md navbar-fixed-top">
+    <div class="container-fluid nav-mobile">
+        <ul class="navbar-nav mobile-text">
             <li class="nav-item active">
                 <a class="nav-link" href="#">Explore</a>
             </li>
@@ -31,14 +31,36 @@
         <img class="logo" src="./resources/images/logo.png" alt="Company logo">
     </div>    
 </nav>
-
-<div class="jumbotron jumbotron-bike">
-    <span class="monoton">Get Going</span>
-    <p class="jumbotron-p">Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
-    <div class="main-button">
-        <a href="#" class="btn btn-primary btn-large">Jump in</a>
+<Div class="carousel">
+    <div class="jumbotron jumbotron-bike">
+        <span class="monoton mobile-text">GET GOING.</span>
+        <p class="jumbotron-p mobile-text">Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+        <div class="main-button">
+            <a href="#" class="btn btn-primary btn-large">Jump in</a>
+        </div>
     </div>
-</div>
+    <div class="jumbotron jumbotron-beer">
+        <span class="monoton mobile-text">GET THINKING.</span>
+        <p class="jumbotron-p mobile-text">Meet like-minded individuals who will help fuel your creative juices.</p>
+        <div class="main-button">
+            <a href="#" class="btn btn-primary btn-large">Jump in</a>
+        </div>
+    </div>
+    <div class="jumbotron jumbotron-flowers">
+        <span class="monoton mobile-text">GET CREATING.</span>
+        <p class="jumbotron-p mobile-text">Stop overthinking projects and begin putting them out into the world.</p>
+        <div class="main-button">
+            <a href="#" class="btn btn-primary btn-large">Jump in</a>
+        </div>
+    </div>
+    <div class="jumbotron jumbotron-duffel">
+        <span class="monoton mobile-text">GET STARTED.</span>
+        <p class="jumbotron-p mobile-text">What are you waiting for? Today's the day for your next big idea.</p>
+        <div class="main-button">
+            <a href="#" class="btn btn-primary btn-large">Jump in</a>
+        </div>
+    </div>
+</Div>
 
 <div class="container bottom-margin">
     <div class="row featured-product">
@@ -55,7 +77,7 @@
         </div>
 
         <div class="product-list col-xs-12 col-md-3">
-            <h4>Product Categories</h4>
+            <h4 class="mobile-text">Product Categories</h4>
              <ul>
                 <li>Art</li>
                 <li>Books</li>
@@ -80,38 +102,37 @@
 
 </div>
 
-<div class="container">
-    <div class="row">
+<div class="container projects">
+    <div class="row mobile-text projects-h3">
         <h3>Projects</h3>
     </div>
     <div class="row">
-        <div class="image-container col-xs-12 col-md-4">
-            <img src="./resources/images/project1.png" alt="Girl on chair" class="opaque">
-        </div>
-        <div class="image-container col-xs-12 col-md-4">
-            <img src="./resources/images/project2.png" alt="Empty apartment room" class="opaque">
-        </div>
-        <div class="image-container col-xs-12 col-md-4">
-            <img src="./resources/images/project3.png" alt="Street sign post double exposure" class="opaque">
-        </div>
-
-    </div>
-    <div class="row">
         <div class="col-xs-12 col-md-4">
-            <h4>The Right Tights</h4>
-            <span>by Riley Mae</span>
-            <p>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.</p>
+            <div class="image-container">
+                <img src="./resources/images/project1.png" alt="Girl on chair" class="opaque">
+            </div>
+            <div class="test">
+                <h4>The Right Tights</h4>
+                <span>by Riley Mae</span>
+                <p>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.</p>
+            </div>
         </div>
-        <div class="col-xs-12 col-md-4">
+        <div class="col-xs-12 col-md-4"">
+            <div class="image-container">
+                <img src="./resources/images/project2.png" alt="Empty apartment room" class="opaque">
+            </div>    
             <h4>Peppermint Smart Home</h4>
             <span>by Brian McDonald</span>
             <p>Instantly upgrade your home with technology that keeps your family and home safe. We've made Peppermint easy to use. Just talk to your phone and Peppermint will help you every step of the way.</p>
         </div>
-        <div class="col-xs-12 col-md-4">
+        <div class="col-xs-12 col-md-4"">
+            <div class="image-container">
+                <img src="./resources/images/project3.png" alt="Street sign post double exposure" class="opaque">
+            </div>
             <h4>American Streetlife</h4>
             <span>by Patrick Wallace</span>
             <p>I've been traveling around the United States for the past two years. I've slept on hundreds of couches, more than a few benches, and captured my experiences in this 120 page photo album.</p>
-        </div>    
+        </div>   
     </div>
 </div>
 
