@@ -46,10 +46,20 @@ h4 {
     top: 75px;
 }
 
+.sitewide-container {
+    position: relative;
+    top: 50px;
+}    
+
 @media only screen and (max-width: 768px) {
     .sitewide-container {
         position: relative;
         top: 111px;
+    }
+
+    .projects-page .sitewide-container {
+        position: relative;
+        top: 150px;
     }
 }
 
