@@ -1,14 +1,14 @@
 /* General styles */
 
+.about-us-banner {
+    width: 100%;
+    height: auto;
+}
+
+
 html {
     font-size: 14px;
     font-family: Open Sans;
-}
-
-li a {
-    color: #399bd1;
-    font-size: 1.1rem;
-    font-weight: bold;
 }
 
 a, a:hover, a:visited, a:active {
@@ -84,6 +84,12 @@ h4 {
     width: 100%;
     z-index: 2;
     border-bottom: 1px solid #DDDCDC;
+}
+
+li a {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 768px) {
