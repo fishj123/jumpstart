@@ -1,11 +1,5 @@
 /* General styles */
 
-.about-us-banner {
-    width: 100%;
-    height: auto;
-}
-
-
 html {
     font-size: 14px;
     font-family: Open Sans;
@@ -35,10 +29,12 @@ h4 {
 
 .image-container img {
     transition: transform 0.5s, opactity 0.5s;
+    border-radius: 5%;
 }
 
 .image-container {
     overflow: hidden;
+    border-radius: 5%;
 }
 
 .projects-page .sitewide-container {
@@ -195,10 +191,17 @@ li a {
     color: #399bd1;
 }
 
+.product-list {
+    border: 2px solid #399bd1;
+    border-radius: 5%;
+    padding: 1rem;
+}
+
 /* Projects section */
 
 .opaque {
     opacity: 0.5;
+    border-radius: 5%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -245,4 +248,78 @@ li a {
     padding-top: 5.2rem;
     padding-bottom: 5.2rem;
     background-color: #f3f3f3;
+    margin-top: 100px;
 }
+
+/*//////////////////////////////////// About Us page styles //////////////////////////////*/
+
+.about-us-banner {
+    width: 100%;
+    height: auto;
+}
+
+#creatives {
+    color: #398876
+}
+
+.about-us-p {
+    text-align: center;
+    font-weight: bold;
+    color: #398876;
+    font-size: 2vw;
+}
+
+#about-us-h1 {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sec-1-about-us {
+    height: auto;
+}
+
+#about-us-container {
+    background-color: #FAD597;
+}
+
+.tile {
+    text-align: center;
+}
+
+#left {
+    text-align: left;
+}
+
+.about-us-container {
+    position: relative;
+    top: 50px;
+  
+}
+
+.jumbotron-about-us {
+    background-image: url('../images/about-us-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.about-us-title {
+    font-size: 8vw;
+    font-weight: bold;
+    line-height: 8vw;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .about-us-container {
+        position: relative;
+        top: 111px;
+    }
+}
+
+
+.about-us-img img {
+    border-radius: 100%;
+}    
